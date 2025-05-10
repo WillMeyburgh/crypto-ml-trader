@@ -1,0 +1,1 @@
+Initial Goal: Create a Trader Agent on Binance Testnet using Spot Trades and LSTM

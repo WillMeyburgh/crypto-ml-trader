@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "crypto-ml-trader"
+version = "0.1.0"
+description = ""
+authors = ["Will Meyburgh <annekinmeyburgh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-binance = "^1.0.28"
+aiohttp = "^3.11.18"
+aiofiles = "^24.1.0"
+python-dotenv = "^1.1.0"
+beautifulsoup4 = "^4.13.4"
+lxml = "^5.4.0"
+torch = "^2.7.0"
+pandas = "^2.2.3"
+alive-progress = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
